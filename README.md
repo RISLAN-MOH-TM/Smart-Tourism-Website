@@ -11,7 +11,7 @@ An academic MVP tourism discovery platform and enquiry management system for Sri
 **Course/Module:** Practical Tourism Marketing & Digital Analytics  
 **Project Title:** Smart Tourism Sri Lanka — Multilingual Travel Discovery  
 **Live Website Repository:** [https://github.com/RISLAN-MOH-TM/Smart-Tourism-Website.git](https://github.com/RISLAN-MOH-TM/Smart-Tourism-Website.git)  
-**Deployment Platform:** Vercel  
+**Deployment Platform:** Vercel [https://smart-twourism-website.vercel.app/] 
 
 ---
 
