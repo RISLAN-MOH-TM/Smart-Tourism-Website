@@ -126,8 +126,8 @@ export const SriLankaMap: React.FC = () => {
         </div>
       </div>
 
-      {/* Place Selector Pills */}
-      <div className="p-3 bg-stone-50 border-b border-stone-200 overflow-x-auto flex items-center gap-2 scrollbar-thin">
+      {/* Place Selector Pills - optimized for touch on iPhone / Android */}
+      <div className="p-3 bg-stone-50 border-b border-stone-200 overflow-x-auto flex items-center gap-2 touch-pan-x overscroll-x-contain">
         {MAIN_PLACES.map((place) => {
           const isSelected = selectedPlace.id === place.id;
           return (
@@ -151,7 +151,7 @@ export const SriLankaMap: React.FC = () => {
       {/* Map + Detail Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-3">
         {/* Live Google Map Embed */}
-        <div className="lg:col-span-2 relative h-[380px] sm:h-[460px] w-full bg-stone-200">
+        <div className="lg:col-span-2 relative h-[300px] sm:h-[400px] lg:h-[460px] w-full bg-stone-200">
           <iframe
             title={`Map of ${selectedPlace.name}`}
             src={mapUrl}
@@ -166,24 +166,24 @@ export const SriLankaMap: React.FC = () => {
         </div>
 
         {/* Selected Place Detail Sidebar */}
-        <div className="p-6 bg-stone-50 border-t lg:border-t-0 lg:border-l border-stone-200 flex flex-col justify-between">
+        <div className="p-5 sm:p-6 bg-stone-50 border-t lg:border-t-0 lg:border-l border-stone-200 flex flex-col justify-between">
           <div>
             <div className="inline-block text-[11px] uppercase tracking-wider font-bold text-emerald-800 bg-emerald-100/70 px-2.5 py-0.5 rounded mb-2">
               {selectedPlace.category}
             </div>
 
-            <h4 className="font-serif text-xl font-bold text-stone-900 mb-1">
+            <h4 className="font-serif text-lg sm:text-xl font-bold text-stone-900 mb-1">
               {selectedPlace.name}
             </h4>
 
-            <p className="text-xs text-stone-500 font-medium mb-4 flex items-center gap-1">
-              <Navigation className="w-3.5 h-3.5 text-stone-400" />
+            <p className="text-xs text-stone-500 font-medium mb-4 flex items-center gap-1 flex-wrap">
+              <Navigation className="w-3.5 h-3.5 text-stone-400 flex-shrink-0" />
               <span>{selectedPlace.region}</span>
               <span>•</span>
               <span className="font-mono">{selectedPlace.coordinates}</span>
             </p>
 
-            <p className="text-sm text-stone-700 leading-relaxed mb-6">
+            <p className="text-xs sm:text-sm text-stone-700 leading-relaxed mb-6">
               {selectedPlace.description}
             </p>
           </div>
@@ -211,4 +211,3 @@ export const SriLankaMap: React.FC = () => {
     </div>
   );
 };
-
