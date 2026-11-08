@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "brand": "Smart Tourism Sri Lanka",
+    "home": "Home",
+    "packages": "Packages",
+    "tripPlanner": "Trip Planner",
+    "destinations": "Destinations",
+    "about": "About",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "enquiry": "Enquire Now",
+    "admin": "Admin Portal"
+  },
+  "hero": {
+    "badge": "Authentic Ceylon Experience",
+    "title": "Discover the Timeless Wonder of Sri Lanka",
+    "subtitle": "Immerse yourself in ancient UNESCO heritage, mist-wrapped tea hills, golden tropical beaches, and vibrant cultural sanctuaries.",
+    "exploreCta": "Explore Destinations",
+    "enquireCta": "Plan Your Journey",
+    "statDestinations": "4 Premier Regions",
+    "statLanguages": "5 Global Languages",
+    "statCurrencies": "4 Supported Currencies"
+  },
+  "destinations": {
+    "sectionBadge": "Curated Journeys",
+    "sectionTitle": "Featured Sri Lankan Destinations",
+    "sectionSubtitle": "Handcrafted itineraries across the island's most iconic natural and cultural landmarks.",
+    "startingFrom": "Starting from",
+    "viewDetails": "View Details",
+    "bookEnquiry": "Enquire for This Tour",
+    "keyHighlights": "Key Highlights",
+    "idealDuration": "Ideal Duration",
+    "bestTimeToVisit": "Best Season",
+    "indicativeRateNotice": "Indicative exchange rate. Final charges are calculated at confirmation."
+  },
+  "items": {
+    "sigiriya": {
+      "name": "Sigiriya Ancient Citadel",
+      "category": "Heritage & Culture",
+      "tagline": "The 5th-century fortress in the sky surrounded by landscaped royal gardens.",
+      "description": "Rising 200 meters above the central plains, the ancient rock fortress of Sigiriya stands as an astonishing feat of ancient urban planning, architecture, and hydraulic engineering. Ascend through the massive Lion's Paws to marvel at world-renowned 5th-century frescoes and panoramic jungle vistas.",
+      "duration": "1 - 2 Days",
+      "season": "Year-round (Best Nov - Apr)",
+      "highlights": [
+        "UNESCO World Heritage 5th-Century Rock Citadel",
+        "Remarkable ancient mirror wall and fresco gallery",
+        "Symmetrical water gardens with working fountains",
+        "Breathtaking 360-degree views of the cultural triangle"
+      ]
+    },
+    "ella": {
+      "name": "Ella & Highlands",
+      "category": "Nature & Adventure",
+      "tagline": "Emerald tea terraces, dramatic mist-clad peaks, and colonial railway architecture.",
+      "description": "Nestled in the central highlands, Ella is a tranquil mountain village enveloped by cool cloud forests and verdant tea estates. Marvel at the colonial Nine Arches Viaduct as the blue train passes through lush rainforest, and trek to Little Adam's Peak for sunrise over Ella Gap.",
+      "duration": "2 - 3 Days",
+      "season": "Dec - May (Dry highlands)",
+      "highlights": [
+        "Iconic Nine Arches Demodara colonial viaduct",
+        "Scenic hike up Little Adam's Peak and Ella Rock",
+        "Ceylon tea tasting in historic high-elevation estates",
+        "Cascading Ravana waterfall and natural pools"
+      ]
+    },
+    "galle": {
+      "name": "Galle Fort",
+      "category": "History & Coastal Culture",
+      "tagline": "A living 17th-century Dutch colonial bastion overlooking the Indian Ocean.",
+      "description": "Wander through centuries-old cobblestone lanes flanked by Dutch colonial villas, artisan jewelry workshops, and historic churches. The UNESCO-listed Galle Fort combines maritime heritage with vibrant coastal café culture, protected by dramatic granite ramparts facing ocean sunsets.",
+      "duration": "1 - 2 Days",
+      "season": "Nov - Apr (South coast)",
+      "highlights": [
+        "Intact 17th-century European ramparts and bastions",
+        "Iconic white lighthouse overlooking turquoise waters",
+        "Boutique artisan shops, gem houses, and spice merchants",
+        "Sunset walks along the Indian Ocean sea wall"
+      ]
+    },
+    "mirissa": {
+      "name": "Mirissa Coast",
+      "category": "Beach & Marine Experiences",
+      "tagline": "Golden crescent shores, gentle surf breaks, and world-class blue whale watching.",
+      "description": "Mirissa is the crown jewel of Sri Lanka's southern coastline, renowned for tranquil coconut-fringed bays, fresh seafood by the shoreline, and thrilling ocean expeditions. Embark at dawn onto the continental shelf to witness the majestic blue whale, the largest creature on earth.",
+      "duration": "2 - 4 Days",
+      "season": "Nov - Apr (Peak marine season)",
+      "highlights": [
+        "Ethical blue whale and dolphin watching cruises",
+        "Iconic Coconut Tree Hill promontory viewpoint",
+        "Gentle beach surf breaks and coral reef snorkeling",
+        "Candlelit oceanfront dining featuring fresh Ceylon catch"
+      ]
+    }
+  },
+  "whyVisit": {
+    "badge": "Why Sri Lanka",
+    "title": "A Small Island of Extraordinary Diversity",
+    "subtitle": "Few places in the world offer such varied landscapes, ancient heritage, and warm hospitality within short scenic journeys.",
+    "cards": [
+      {
+        "title": "Living Heritage",
+        "desc": "Eight UNESCO World Heritage sites spanning over 2,500 years of recorded history and royal civilization."
+      },
+      {
+        "title": "Lush Highland Nature",
+        "desc": "Cool mountain retreats, cloud forests, world-famous Ceylon tea gardens, and spectacular railway routes."
+      },
+      {
+        "title": "Pristine Tropical Coastlines",
+        "desc": "Over 1,300 km of golden palm-fringed coastline with year-round sunshine and marine life."
+      },
+      {
+        "title": "Authentic Hospitality",
+        "desc": "Warm, genuine smiles and rich culinary traditions celebrated for fragrant spices and fresh produce."
+      }
+    ]
+  },
+  "enquiry": {
+    "badge": "Plan Your Visit",
+    "title": "Tailored Travel Inquiries",
+    "subtitle": "Tell our travel curators about your dream itinerary. We will craft a customized experience with verified local private guides and transparent pricing.",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone / WhatsApp (Optional)",
+    "destination": "Destination of Interest",
+    "selectDestination": "Select a Destination",
+    "allDestinations": "Complete Island Tour / Custom Itinerary",
+    "travelDate": "Estimated Travel Date",
+    "guests": "Number of Travelers",
+    "message": "Message / Special Requirements",
+    "messagePlaceholder": "Tell us about your interests (e.g. private driver, luxury accommodation, dietary requirements, family travel)...",
+    "submit": "Submit Enquiry",
+    "submitting": "Submitting...",
+    "successTitle": "Thank you for your enquiry!",
+    "successDesc": "Our Sri Lanka travel desk has received your request and will reply within 24 hours.",
+    "errorMsg": "Please fill in all required fields."
+  },
+  "currency": {
+    "indicativeNotice": "Indicative conversion based on reference rates. Final payments are invoiced in Sri Lankan Rupees (LKR).",
+    "rateSource": "ECB / Reference Exchange Rate"
+  },
+  "consent": {
+    "title": "Cookie & Analytics Notice",
+    "message": "We use standard analytical cookies to understand destination popularity and visitor language preferences. No personally identifiable form information is transmitted.",
+    "accept": "Accept Analytics",
+    "decline": "Decline Non-Essential",
+    "privacy": "Privacy Policy"
+  },
+  "footer": {
+    "aboutText": "Smart Tourism Sri Lanka is an academic discovery platform showcasing the natural majesty and heritage of Ceylon with multilingual accessibility and transparent currency indicators.",
+    "quickLinks": "Explore",
+    "destinations": "Destinations",
+    "contact": "Contact",
+    "office": "Colombo Tourism Hub, Sri Lanka",
+    "email": "travel@smart-tourism.lk",
+    "copyright": "Smart Tourism Sri Lanka. All Rights Reserved."
+  }
+}
+

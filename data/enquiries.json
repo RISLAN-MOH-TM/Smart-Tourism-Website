@@ -1,0 +1,51 @@
+[
+  {
+    "id": "enq-1001",
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@example.com",
+    "destination": "Sigiriya",
+    "message": "Hello, we are planning a 4-day cultural exploration trip around Sigiriya and Dambulla in early December. Could you provide a private guide and driver recommendation?",
+    "status": "New",
+    "created_at": "2026-11-08T09:30:00.000Z",
+    "phone": "+44 7700 900123",
+    "travel_date": "2026-12-05",
+    "guests": 2
+  },
+  {
+    "id": "enq-1002",
+    "name": "Kenji Sato",
+    "email": "kenji.sato@example.jp",
+    "destination": "Ella",
+    "message": "We would like to book the scenic train journey to Ella and do hiking in Little Adam's Peak. Do you offer Japanese language guiding or materials?",
+    "status": "Contacted",
+    "created_at": "2026-11-07T14:15:00.000Z",
+    "phone": "+81 90 1234 5678",
+    "travel_date": "2026-12-18",
+    "guests": 3
+  },
+  {
+    "id": "enq-1003",
+    "name": "David Mueller",
+    "email": "david.m@example.de",
+    "destination": "Galle Fort",
+    "message": "Looking for boutique colonial heritage villas in Galle Fort and a private walking tour of the ramparts.",
+    "status": "Closed",
+    "created_at": "2026-11-05T11:45:00.000Z",
+    "phone": "+49 151 23456789",
+    "travel_date": "2026-11-25",
+    "guests": 2
+  },
+  {
+    "id": "enq-1004",
+    "name": "Li Wei",
+    "email": "li.wei@example.cn",
+    "destination": "Mirissa",
+    "message": "We want to do whale watching in Mirissa and spend 3 days relaxing at the south coast beaches. Please suggest the best season and boat tour operators.",
+    "status": "New",
+    "created_at": "2026-11-08T15:20:00.000Z",
+    "phone": "+86 138 0000 1234",
+    "travel_date": "2027-01-10",
+    "guests": 4
+  }
+]
+
